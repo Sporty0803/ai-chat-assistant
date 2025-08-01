@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e2f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  background-color: #2e2e42;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2em;
+}
+
+#chatBox {
+  max-height: 60vh;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+.icon-btn {
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: background 0.3s ease;
+}
+.icon-btn:hover {
+  background-color: #666;
+}
+.send-btn {
+  background-color: green;
+  color: white;
+  padding: 12px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.send-btn:hover {
+  background-color: gray;
+}
+
+
+.bubble {
+  padding: 12px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.user {
+  background-color: #4a90e2;
+  align-self: flex-end;
+  text-align: right;
+}
+
+.ai {
+  background-color: #5c5e8a;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.bubble .meta {
+  font-size: 0.75em;
+  color: #ccc;
+  margin-top: 5px;
+}
+
+.copyBtn, .emojiBar {
+  margin-top: 5px;
+  display: flex;
+  gap: 5px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#userInput {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
+.audio-player {
+  margin-top: 10px;
+}
+
+.audio-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.audio-btn:hover {
+  background-color: #45a049;
+}

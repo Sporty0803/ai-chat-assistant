@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Chat Assistant</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/style.css" />
+  <script defer src="/static/script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>AI Chat Assistant</h1>
+    <div id="chatBox"></div>
+    <p id="typingIndicator" class="hidden">AI is typing...</p>
+    <div class="input-area">
+      <button id="micBtn" class="icon-btn" title="Voice Input">
+        <i class="fas fa-microphone"></i>
+      </button>
+      <input type="text" id="userInput" placeholder="Type your message..." />
+      <button id="sendBtn" class="send-btn">Send</button>
+
+    </div>
+  </div>
+</body>
+</html>
