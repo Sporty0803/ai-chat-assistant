@@ -12,3 +12,6 @@ A Flask-based web AI chatbot using Gemini + ElevenLabs for text + voice response
 ```bash
 pip install -r requirements.txt
 python main.py
+
+### Make a .env file when using a locally to store the gemini and Elevenlabs api key values.
+ 
